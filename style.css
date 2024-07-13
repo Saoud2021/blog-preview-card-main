@@ -14,6 +14,7 @@ html {
 body {
   background-color: var(--yellow);
   min-height: 100vh;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,9 +27,9 @@ body {
   border: 1px solid var(--black);
   border-radius: 1rem;
   padding: 1.5rem;
-  width: 500px;
+  width: 450px;
   box-shadow: 10px 10px var(--black);
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   transition: all .3s ease;
 }
 .container:hover {
@@ -58,8 +59,9 @@ span:hover {
   box-shadow: 2px 2px var(--black);
   cursor: pointer;
 }
-p {
+article p {
   font-weight: 700;
+  line-height: 20px;
   margin-bottom: 1rem;
   color: var(--black);
 }
